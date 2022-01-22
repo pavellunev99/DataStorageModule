@@ -1,6 +1,10 @@
-public struct DataStorage {
-    public private(set) var text = "Hello, World!"
+
+public class DataStorage {
+    public func doSave(){
+        print("data saved")
+    }
 
     public init() {
+        
     }
 }
